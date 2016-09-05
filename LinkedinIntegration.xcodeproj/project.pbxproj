@@ -14,6 +14,7 @@
 		5B0813001D7B505C00F186DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0812FE1D7B505C00F186DF /* LaunchScreen.storyboard */; };
 		5B08130B1D7B505C00F186DF /* LinkedinIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08130A1D7B505C00F186DF /* LinkedinIntegrationTests.swift */; };
 		5B0813161D7B505C00F186DF /* LinkedinIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0813151D7B505C00F186DF /* LinkedinIntegrationUITests.swift */; };
+		5B0813241D7CE85900F186DF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0813231D7CE85900F186DF /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B0813111D7B505C00F186DF /* LinkedinIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedinIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0813151D7B505C00F186DF /* LinkedinIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinIntegrationUITests.swift; sourceTree = "<group>"; };
 		5B0813171D7B505C00F186DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0813231D7CE85900F186DF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5B0812FC1D7B505C00F186DF /* Assets.xcassets */,
 				5B0812FE1D7B505C00F186DF /* LaunchScreen.storyboard */,
 				5B0813011D7B505C00F186DF /* Info.plist */,
+				5B0813231D7CE85900F186DF /* WebViewController.swift */,
 			);
 			path = LinkedinIntegration;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0812F81D7B505C00F186DF /* ViewController.swift in Sources */,
+				5B0813241D7CE85900F186DF /* WebViewController.swift in Sources */,
 				5B0812F61D7B505C00F186DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
