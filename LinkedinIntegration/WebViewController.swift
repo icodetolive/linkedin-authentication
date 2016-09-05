@@ -23,7 +23,7 @@ class WebViewController: UIViewController, UIWebViewDelegate {
         let responseType = "code"
         
         // Set the redirect URL. Adding the percent escape characthers is necessary.
-        let redirectURL = "https://com.appcoda.linkedin.oauth/oauth".stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.alphanumericCharacterSet())!
+        let redirectURL = "https://www.pretentiousgeek.me/oauth_callback".stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.alphanumericCharacterSet())!
         
         // Create a random string based on the time interval (it will be in the form linkedin12345679).
         let state = "linkedin\(Int(NSDate().timeIntervalSince1970))"
