@@ -32,6 +32,12 @@ class ViewController: UIViewController {
     }
     
     
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if(segue.identifier == "idSegueShowWebVC") {
+//            let controller = segue.destinationViewController as! WebViewController
+//        }
+//    }
+    
     // MARK: IBAction Functions
     
     @IBAction func getProfileInfo(sender: AnyObject) {
