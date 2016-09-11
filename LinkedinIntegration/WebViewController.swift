@@ -137,9 +137,9 @@ class WebViewController: UIViewController, UIWebViewDelegate {
                     
                     print("Access token: "+accessToken)
                     
-                   // NSUserDefaults.standardUserDefaults().setObject(accessToken, forKey: "LIAccessToken")
-//                    NSUserDefaults.standardUserDefaults().removeObjectForKey("LIAccessToken")
-//                    NSUserDefaults.standardUserDefaults().synchronize()
+                    NSUserDefaults.standardUserDefaults().setObject(accessToken, forKey: "LIAccessToken")
+                   // NSUserDefaults.standardUserDefaults().removeObjectForKey("LIAccessToken")
+                    NSUserDefaults.standardUserDefaults().synchronize()
                     
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
                         self.dismissViewControllerAnimated(true, completion: nil)
