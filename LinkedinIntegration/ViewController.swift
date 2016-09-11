@@ -31,6 +31,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func checkForExistingAccessToken() {
+        if NSUserDefaults.standardUserDefaults().objectForKey("LIAccessToken") != nil {
+            btnSignIn.enabled = false
+            btnGetProfileInfo.enabled = true
+        }
+    }
+    
     
 //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 //        if(segue.identifier == "idSegueShowWebVC") {

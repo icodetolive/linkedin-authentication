@@ -20,9 +20,9 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
     
-    let linkedInKey = "78jlt0emyuuvux"
+    let linkedInKey = "Your_Api_Key"
     
-    let linkedinSecret = "dZeatO9O6PqaierA"
+    let linkedinSecret = "Your_Api_Secret"
     
     let authorizationEndPoint = "https://www.linkedin.com/uas/oauth2/authorization"
     
@@ -138,7 +138,7 @@ class WebViewController: UIViewController, UIWebViewDelegate {
                     print("Access token: "+accessToken)
                     
                    // NSUserDefaults.standardUserDefaults().setObject(accessToken, forKey: "LIAccessToken")
-//                    NSUserDefaults.standardUserDefaults().removeObjectForKey("LIAccessToke")
+//                    NSUserDefaults.standardUserDefaults().removeObjectForKey("LIAccessToken")
 //                    NSUserDefaults.standardUserDefaults().synchronize()
                     
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
@@ -155,15 +155,6 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     }
 
 
-    
-
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-    }
-    
-   // https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id=78jlt0emyuuvux&redirect_uri=https://www.pretentiousgeek.me/oauth_callback&state=linkedin1473056913&scope=r_basicprofile?format=json
-
- 
     @IBAction func dismiss(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
